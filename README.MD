@@ -24,4 +24,4 @@ Have fun!
 
 ## Progress
 
-19.10.22 Project started - github repo and project structure setup.
+19.10.22 Project started - gitHub repo and project structure setup.
