@@ -25,3 +25,7 @@ Have fun!
 ## Progress
 
 19.10.22 Project started - gitHub repo and project structure setup.
+
+19.10.22 stage 1 completed - check for simple calculation term syntax.
+
+19.10.22 stage 2 completed - perform the operation requested.

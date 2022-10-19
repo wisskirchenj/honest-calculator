@@ -2,7 +2,9 @@ MANIFEST.in
 README.md
 setup.cfg
 setup.py
+src/.DS_Store
 src/calculator/__init__.py
+src/calculator/honest_calculator.py
 src/honest_calculator.egg-info/PKG-INFO
 src/honest_calculator.egg-info/SOURCES.txt
 src/honest_calculator.egg-info/dependency_links.txt
