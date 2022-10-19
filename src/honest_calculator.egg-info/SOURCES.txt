@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/calculator/__init__.py
+src/honest_calculator.egg-info/PKG-INFO
+src/honest_calculator.egg-info/SOURCES.txt
+src/honest_calculator.egg-info/dependency_links.txt
+src/honest_calculator.egg-info/top_level.txt
