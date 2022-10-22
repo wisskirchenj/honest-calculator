@@ -29,3 +29,5 @@ Have fun!
 19.10.22 stage 1 completed - check for simple calculation term syntax.
 
 19.10.22 stage 2 completed - perform the operation requested.
+
+22.10.22 stage 3 completed - implement a memory and further branching, structure the code into functions, avoid globals.
