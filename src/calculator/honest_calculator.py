@@ -8,6 +8,9 @@ msg_6 = " ... lazy"
 msg_7 = " ... very lazy"
 msg_8 = " ... very, very lazy"
 msg_9 = "You are"
+msg_10 = "Are you sure? It is only one digit! (y / n)\n"
+msg_11 = "Don't be silly! It's just one number! Add to the memory? (y / n)\n"
+msg_12 = "Last chance! Do you really want to embarrass yourself? (y / n)\n"
 
 
 def parse_memory_or_float(x, memory):
@@ -84,8 +87,12 @@ def main():
         x, operator, y = read_operation(memory)
         result = calculate(x, operator, y)
         print(result)
-        if positive_answered(msg_4):
+        if positive_answered(msg_4) and (not is_digit(result)
+                                         or (positive_answered(msg_10)
+                                             and positive_answered(msg_11)
+                                             and positive_answered(msg_12))):
             memory = result
+
         continue_calc = positive_answered(msg_5)
 
 

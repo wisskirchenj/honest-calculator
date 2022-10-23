@@ -15,12 +15,14 @@ The sources of main project tasks (5 stages) and testing.
 
 The toy project represents the realization of a calculator "game" given in flowcharts, which
 increasingly checks user input and evaluates, if the calculation is necessary.
+It's kind of nice to decompose a flowchart into python function logic - but late stages suffer
+from really stupid textual logic... -> "honestly not my cup of tea this project"
 
 Have fun!
 
 ## Project completion
 
-[//]: # (Project was completed on dd.mm.22.)
+Project was completed on 23.10.22.
 
 ## Progress
 
@@ -33,3 +35,5 @@ Have fun!
 22.10.22 stage 3 completed - implement a memory and further branching, structure the code into functions, avoid globals.
 
 23.10.22 stage 4 completed - lazy-check = some stupid messages on special calculation input -> not funny...
+
+23.10.22 Final stage 5 completed - one-digit store memory check = more stupid questions -> also not funny...
