@@ -4,6 +4,10 @@ msg_2 = "Yes ... an interesting math operation. You've slept through all classes
 msg_3 = "Yeah... division by zero. Smart move..."
 msg_4 = "Do you want to store the result? (y / n):\n"
 msg_5 = "Do you want to continue calculations? (y / n):\n"
+msg_6 = " ... lazy"
+msg_7 = " ... very lazy"
+msg_8 = " ... very, very lazy"
+msg_9 = "You are"
 
 
 def parse_memory_or_float(x, memory):
@@ -28,6 +32,7 @@ def read_operation(memory):
             print(msg_2)
             continue
 
+        lazy_check(x, y, operator)
         if operator == "/" and y == 0:
             print(msg_3)
             continue
@@ -53,6 +58,23 @@ def positive_answered(question):
     while choice not in ["y", "n"]:
         choice = input(question)
     return True if choice == "y" else False
+
+
+def is_digit(num):
+    return float.is_integer(float(num)) and -10 < num < 10
+
+
+def lazy_check(x, y, operator):
+    message = ""
+    if is_digit(x) and is_digit(y):
+        message += msg_6
+    if operator == "*" and (x == 1 or y == 1):
+        message += msg_7
+    if operator != "/" and (x == 0 or y == 0):
+        message += msg_8
+    if len(message) > 0:
+        message = msg_9 + message
+        print(message)
 
 
 def main():
