@@ -31,3 +31,5 @@ Have fun!
 19.10.22 stage 2 completed - perform the operation requested.
 
 22.10.22 stage 3 completed - implement a memory and further branching, structure the code into functions, avoid globals.
+
+23.10.22 stage 4 completed - lazy-check = some stupid messages on special calculation input -> not funny...
